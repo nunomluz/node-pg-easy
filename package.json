@@ -1,0 +1,35 @@
+{
+  "name": "node-pg-easy",
+  "description": "a pg module abstraction featuring promises and easier transactions.",
+  "version": "1.0.0",
+  "author": "Nuno Luz <nuno.maluz@gmail.com> (http://nluz.mobaton.com)",
+  "keywords": [
+    "pg",
+    "postgres",
+    "transactions",
+	"promises",
+    "database"
+  ],
+  "scripts": {
+    "test": "mocha --bail \"tests/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunomluz/node-pg-easy.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nunomluz/node-pg-easy/issues"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~2.2.5"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "pg": "~6.0.1",
+    "pg-escape": "~0.2.0",
+    "q": "~1.4.1",
+    "underscore": "~1.8.3"
+  }
+}

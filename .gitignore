@@ -1,0 +1,9 @@
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+logs
+*.log
+npm-debug.log*
+node_modules
+.npm
+.env
